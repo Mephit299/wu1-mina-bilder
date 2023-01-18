@@ -1,0 +1,26 @@
+html,body{
+margin: 0;
+padding: 0;
+height: 100vh;
+}
+
+img{
+    max-width: 100%;
+  
+}
+
+.cotainer{
+    width: min(100ch, 100vw - 4rem);
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.imagegrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
