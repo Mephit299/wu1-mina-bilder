@@ -13,8 +13,14 @@ img{
     margin-inline: auto;
 }
 
-main{
-    
+main > figure > img{
+    padding: 0ch;
+    margin: 0ch;
+    padding-left: 50px;
+}
+main>figure>figcaption{
+    font-size: 1.2rem;
+    padding-left: 50px;
 }
 
 ul{
@@ -29,6 +35,7 @@ nav>ul{
     align-items: center;
     display: flex;
     padding-top: 1rem;
+    
 }
 
 .imagegrid{
@@ -41,4 +48,12 @@ nav>ul{
 
 p{
     font-size: large;
+}
+@media only screen and (max-width: 860px)  {    
+        main>figure>img{
+            padding-left: 0px   ;
+        }
+        main>figure>figcaption{
+            padding-left: 0px;
+        }
 }
